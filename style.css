@@ -1,0 +1,474 @@
+/*Start Header Style For Extra Large Screen */
+#header-logo{
+    width: 18vw;
+}
+#navbarSupportedContent ul li a{
+    font-family: 'Newsreader', serif;
+    color: #000000;
+}
+p{
+    font-family: 'Newsreader', serif;
+}
+#navbarSupportedContent ul li a.active {
+    border-bottom: 1px solid #000000;
+}
+#navbarSupportedContent ul li a:hover{
+    border-bottom: 1px solid #000000;
+}
+/*End Header Style For Extra Large Screen */
+
+/*Start Section1 Style */
+.section1-heading{
+    width: 50%;
+    text-align: center;
+    font-size: 3vw;
+    font-family: 'Newsreader', serif;
+}
+.section1-content{
+    width: 50%;
+    font-size: 1.5vw;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+/*End Section1 Style */
+
+/*Start Section3 Style */
+#section3 .container .main-row{
+    width: 60%;
+}
+.section3-top-line{
+    width: 60%;
+}
+/*End Section3 Style */
+
+/*Start Section4 Style */
+#section4 > div > div > div > img{
+    width: 100%;
+}
+#section4 > div > div > div > figcaption{
+    width: 40%;
+}
+/*End Section4 Style */
+
+
+/*Start Section6 Style */
+#section6 > div > div{
+    width: 60%;
+}
+#section6 > div > div > div:nth-child(1), #section6 > div > div > div:nth-child(2){
+    border: 1px solid #cccccc61;
+    box-shadow: 2px 2px 5px #cccccc61;
+}
+/*End Section6 Style */
+
+/*Start Section7 Style */
+#section7 > div > div{
+    width: 60%;
+}
+#section7 > div > div > div > a{
+    color: #000000;
+}
+/* Dashed border */
+hr.new2 {
+    border-top: 1px dashed #000000;
+  }
+  #section7 > div > div > div.col-sm-12.mt-4 > div > div.col-sm-2{
+    width: 20%;
+}
+#section7 > div > div > div.col-sm-12.mt-4 > div > div.col-sm-10{
+    width: 80%;
+}
+/*End Section7 Style */
+
+
+.img-border{
+    position: relative;
+}
+.img-border img{
+    position:absolute;
+}
+.img-border img{
+    top: -30px;
+    left: 48%;
+}
+.full-line-border{
+    border: 1.6px solid #000000 !important;
+    opacity: 100%;
+}
+
+.form-row{
+    width:50%;
+}
+.form-box{
+    border: 1px solid #cccccc59;
+    box-shadow: 2px 2px 4px #cccccc59;
+    border-top: 5px solid #000000 !important;
+}
+#section10 > div > div > div > form > input[type=text]{
+    width: 60%;
+    padding: 10px;
+}
+form button{
+    padding: 10px 30px;
+    background-color: #000000;
+    color: #fff;
+}
+
+body > footer > div > div:nth-child(2){
+    width: 40%;
+}
+
+footer .container-fluid a{
+    text-decoration: none;
+    padding: 0px 15px;
+    color: #ffffff;
+    /* font-size: 27px; */
+}
+footer .container-fluid{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+body > footer > div > div:nth-child(1) > div > a:nth-child(odd){
+    font-weight: 700;
+}
+
+body > footer > div > div.row.mx-auto.mt-5 > div > a{
+    text-decoration: underline;
+}
+
+
+/*Start Media Queries for All Devicess*/
+
+/* For Large Screen Size*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+      /* background-color: lightgreen; */
+    }
+    /*Start Header Style */
+    #header-logo{
+        width: 22vw;
+    }
+    /*End Header Style For*/
+
+
+    #section4 > div > div > div > figcaption{
+        width: 50%;
+    }
+
+    #section6 > div > div > div{
+        width: 50%;
+    }
+  }
+
+/* For Medium Screen Size*/
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+      /* background-color:aqua; */
+    }
+    /*Start Header Style */
+    #header-logo{
+        width: 28vw;
+    }
+    /*End Header Style */
+
+    /*Start Section1 Style */
+    .section1-heading{
+        width: 75%;
+        font-size: 5vw;
+    }
+    .section1-content{
+        width: 75%;
+        font-size: 2vw;
+    }
+    /*End Section1 Style */
+
+    /*Sart Section3 Style */
+    #section3 .container .main-row{
+        width: 80%;
+    }
+    .section3-top-line{
+        width: 80%;
+    }
+    /*End Section3 Style */
+
+    /*Start Section4 Style */
+
+    #section4 > div > div > div > figcaption{
+        width: 60%;
+    }
+    /*End Section4 Style */
+
+
+    /*Start Section6 Style */
+    #section6 > div > div{
+        width: 80%;
+    }
+    #section6 > div > div > div{
+        border: 1px solid #cccccc61;
+    box-shadow: 2px 2px 5px #cccccc61;
+    }
+    /*End Section6 Style */
+
+
+    /*Start Section7 Style */
+    #section7 > div > div{
+        width: 80%;
+    }
+    /*End Section7 Style */
+
+
+    .img-border img{
+        left: 46%;
+        top: -30px;
+    }
+
+
+    .form-row{
+        width:80%;
+    }
+
+    body > footer > div > div:nth-child(2){
+        width: 60%;
+    }
+
+  }
+
+/* For Small Screen Size*/
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    body {
+      /* background-color:blue; */
+    }
+    /*Start Header Style */
+    #header-logo{
+        width: 35vw;
+    }
+    .custom-control{
+        padding: 20px;
+    }
+    /*End Header Style */
+
+    /*Start Sectin1 Style */
+    .section1-heading{
+        width: 80%;
+        font-size: 5vw;
+    }
+    .section1-content{
+        width: 80%;
+        font-size: 3vw;
+    }
+    /*End Sectin1 Style */
+
+     /*Sart Section3 Style */
+     #section3 .container .main-row{
+        width: 80%;
+        display: block;
+    }
+    .section3-top-line{
+        width: 80%;
+    }
+    #section3 > div > div > div.col-md-6.text-end > div > div{
+        text-align: center;
+        margin-top: 20px;
+       }
+       #section3 > div > div > div.col-md-6.text-end > div > div i{
+           padding: 15px 40px !important;
+          }
+    /*End Section3 Style */
+
+        /*Start Section4 Style */
+        #section4 > div > div > div > figcaption{
+            width: 80%;
+        }
+        /*End Section4 Style */
+
+        #section3 > div > div > div > ul{
+            display: none;
+        }
+
+        #section3 > div > div > div > div{
+            /* display: none; */
+        }
+
+
+        /*Start Section6 Style */
+        #section6 > div > div{
+            width: 100%;
+        }
+        #section6 > div > div > div{
+            border: 1px solid #cccccc61;
+            box-shadow: 2px 2px 5px #cccccc61;
+        }
+        .social-text{
+            display: none;
+        }
+        #section6 > div > div > div{
+            width: 33%;
+        }
+        /*End Section6 Style */
+
+
+        /*Start Section7 Style */
+        #section7 > div > div{
+            width: 100%;
+        }
+        /*End Section7 Style */
+
+
+
+        .img-border img{
+            left: 46%;
+            top: -30px;
+        }
+
+        #section9 > div > div > div{
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+
+        .form-row{
+            width:100%;
+        }
+
+        .hide-link{
+            display: none ;
+        }
+
+        body > footer > div > div:nth-child(2){
+            width: 70%;
+        }
+  }
+
+/* For Mobile Size*/
+@media screen and (max-width: 575px) {
+    body {
+      /* background-color:aqua; */
+    }
+    /*Start Header Style */
+    #header-logo{
+        width: 50vw;
+    }
+    .custom-control{
+        padding: 20px;
+    }
+    /*End Header Style */
+
+    /*Start Sectin1 Style */
+    .section1-heading{
+        width: 80%;
+        font-size: 7vw;
+    }
+    .section1-content{
+        width: 80%;
+        font-size: 4vw;
+    }
+    /*Start Section1 Style */
+
+      /*Sart Section3 Style */
+      #section3 .container .main-row{
+        width: 100%;
+    }
+    .section3-top-line{
+        width: 90%;
+    }
+    .main-row div:nth-child(1) div div:nth-child(1){
+        width: 20%;
+    }
+    .main-row div:nth-child(1) div div:nth-child(2){
+        width: 80%;
+    }
+    #section3 > div > div > div.col-md-6.text-end > div > div{
+     text-align: center;
+     margin-top: 20px;
+    }
+    #section3 > div > div > div.col-md-6.text-end > div > div i{
+        padding: 10px 25px !important;
+       }
+    /*End Section3 Style */
+
+
+        /*Start Section4 Style */
+        #section4 > div > div > div > figcaption{
+            width: 90%;
+        }
+        /*End Section4 Style */
+
+        #section3 > div > div > div > ul{
+            display: none;
+        }
+
+        #section3 > div > div > div > div{
+            /* display: none; */
+        }
+
+
+         /*Start Section6 Style */
+         #section6 > div > div{
+            width: 100%;
+        }
+        #section6 > div > div > div{
+            border: 1px solid #cccccc61;
+    box-shadow: 2px 2px 5px #cccccc61;
+        }
+        .social-text{
+            display: none;
+        }
+        #section6 > div > div > div{
+            width: 33%;
+        }
+        /*End Section6 Style */
+
+
+        /*Start Section7 Style */
+        #section7 > div > div{
+            width: 100%;
+        }
+        #section7 > div > div > div.col-sm-12.mt-4 > div > div.col-sm-2{
+            width: 20%;
+        }
+        #section7 > div > div > div.col-sm-12.mt-4 > div > div.col-sm-10{
+            width: 80%;
+        }
+        /*End Section7 Style */
+
+
+        .img-border img{
+            left: 42%;
+            top: -30px;
+        }
+
+
+        #section9 > div > div > div{
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+
+        .form-row{
+            width:100%;
+        }
+        #section10 > div > div > div > form > input[type=text]{
+            width: 55% !important;
+            padding: 8px;
+        } 
+        form button{
+            padding: 8px 5px !important;
+        }
+        .hide-link{
+            display: none ;
+        }
+        body > footer > div > div:nth-child(2){
+            width: 90%;
+        }
+        footer .container-fluid a {
+            text-decoration: none;
+            color: #ffffff;
+            padding: 0px;
+            font-size: 11px;
+  }
+  .form-box h2{
+    font-size: 24px;
+  }
+}
+/*End Media Queries for All Devicess*/
